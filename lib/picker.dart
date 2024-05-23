@@ -425,9 +425,7 @@ class PickerWidgetState<T> extends State<_PickerWidget> {
                   top: BorderSide(color: theme!.dividerColor, width: 0.5),
                   bottom: BorderSide(color: theme!.dividerColor, width: 0.5),
                 ),
-                color: picker.headerColor == null
-                    ? theme?.bottomAppBarTheme.color
-                    : picker.headerColor,
+                color:picker.headerColor,
               ),
         ));
       }
